@@ -13,3 +13,8 @@ LED_ID = os.getenv('LED_ID')
 FAN_ID = os.getenv('FAN_ID')
 WARNING_ID = os.getenv('WARNING_ID')
 DBX_TOKEN = os.getenv('DBX_TOKEN')
+
+print("SERVER_HOST: {}".format(SERVER_HOST))
+print("SERVER_PORT: {}".format(SERVER_PORT))
+print("AI_SERVER_HOST: {}".format(AI_SERVER_HOST))
+print("AI_SERVER_PORT: {}".format(AI_SERVER_PORT))
